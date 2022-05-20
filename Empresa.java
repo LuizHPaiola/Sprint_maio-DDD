@@ -5,7 +5,7 @@ public class Empresa {
 	private String nome, cnpj;
 	private Vagas vagas;
 	private SedeEmpresa sede;
-	
+
 	public int getId() {
 		return id;
 	}
@@ -46,17 +46,16 @@ public class Empresa {
 		this.sede = sede;
 	}
 
-	
-	Empresa(){
-		
+	Empresa() {
+
 	}
-	
-	Empresa(int id, String nome, String cnpj, Vagas vagas, SedeEmpresa sede){
-		this.id=id;
-		this.nome=nome;
-		this.cnpj=cnpj;
-		this.vagas=vagas;
-		this.sede=sede;
+
+	Empresa(int id, String nome, String cnpj, Vagas vagas, SedeEmpresa sede) {
+		this.id = id;
+		this.nome = nome;
+		this.cnpj = cnpj;
+		this.vagas = vagas;
+		this.sede = sede;
 	}
 
 }
