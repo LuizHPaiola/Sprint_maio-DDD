@@ -1,4 +1,4 @@
-package Sprint_maio;
+package sprint_maio;
 
 import java.util.ArrayList;
 
@@ -48,7 +48,7 @@ public class TelefoneCandidato {
 	public String exibirTelefoneCd() {
 		String txt="";
 		for(String operacao:TelefoneFormatado) {
-			
+			txt+="+"+ddiCandidato+"("+dddCandidato+")"+TelefoneCd;
 		}
 		return txt;
 	}

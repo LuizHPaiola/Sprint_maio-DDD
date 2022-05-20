@@ -1,4 +1,4 @@
-package Sprint_maio;
+package sprint_maio;
 
 public class SedeEmpresa {
 	private int idSede;

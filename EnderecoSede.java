@@ -1,4 +1,4 @@
-package Sprint_maio;
+package sprint_maio;
 
 public class EnderecoSede {
 	private String cepSd, logradouroSd, cidadeSd, estadoSd, paisSd;

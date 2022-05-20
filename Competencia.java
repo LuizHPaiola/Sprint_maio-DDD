@@ -1,4 +1,4 @@
-package Sprint_maio;
+package sprint_maio;
 
 public class Competencia {
 	private String nome;
